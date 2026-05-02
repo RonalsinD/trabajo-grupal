@@ -27,9 +27,9 @@ body {
 }
 
 .site-header {
-  background: #1e3a8a;
-  color: #fff;
-  padding: 2rem 0;
+  background: var(-color-header);
+  color: var(--color-text);
+  padding: 1.5rem 0;
 }
 
 .header-inner {
@@ -40,7 +40,7 @@ body {
   gap: 1rem;
 }
 
-.brand h1 {
+.brand {
   margin: 0;
   font-size: 2rem;
 }
