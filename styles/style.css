@@ -81,6 +81,7 @@ text-decoration: underline;
 .hero h2 {
   margin-bottom: 1rem;
   font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--color-accent);
 }
 
 .hero p {
@@ -99,10 +100,11 @@ text-decoration: underline;
 }
 
 .feature-card {
-  border: 1px solid #d1d5db;
+  border: 1px solid #30363d;
   border-radius: 0.75rem;
-  background: #fff;
+  background: var(--color-card);
   padding: 1.5rem;
+  transition: transfrom 0.3s ease , box-shadow 0.3 ease;
 }
 
 .feature-card h3 {
