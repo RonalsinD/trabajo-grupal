@@ -137,8 +137,8 @@ button:hover {
 }
 
 .site-footer {
-  background: #111827;
-  color: #d1d5db;
+  background: var(--color-header);
+  color: #8b949e;
   padding: 1.5rem 0;
   text-align: center;
 }
