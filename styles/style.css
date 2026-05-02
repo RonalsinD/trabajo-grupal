@@ -109,6 +109,12 @@ text-decoration: underline;
 
 .feature-card h3 {
   margin-top: 0;
+  color: car(--color-accent);
+}
+
+.feature-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 4px 12px rgba(0,0,0,0.5);
 }
 
 .contact {
@@ -120,7 +126,7 @@ button {
   padding: 0.85rem 1.5rem;
   border: none;
   border-radius: 0.5rem;
-  background: #2563eb;
+  background: var(--color-accent);
   color: #fff;
   cursor: pointer;
   font-size: 1rem;
