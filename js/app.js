@@ -15,3 +15,10 @@ const classes = [
   { id: 2, title: "Class 2", video: "https://www.youtube.com/embed/xyz456", topic: "Branches" },
   { id: 3, title: "Class 3", video: "https://www.youtube.com/embed/qwe789", topic: "Merge" }
 ];
+const container = document.getElementById("contenido");
+
+classes.forEach(clase => {
+  const div = document.createElement("div");
+  div.innerHTML = `<h2>${clase.title}</h2>`;
+  container.appendChild(div);
+});
