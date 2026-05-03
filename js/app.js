@@ -26,3 +26,19 @@ div.innerHTML = `
   <h2>${clase.title}</h2>
   <iframe src="${clase.video}" width="400"></iframe>
 `;
+function renderClasses(data) {
+  const container = document.getElementById("contenido");
+
+  data.forEach(clase => {
+    const div = document.createElement("div");
+
+    div.innerHTML = `
+      <h2>${clase.title}</h2>
+      <iframe src="${clase.video}" width="400"></iframe>
+    `;
+
+    container.appendChild(div);
+  });
+}
+
+renderClasses(classes);
