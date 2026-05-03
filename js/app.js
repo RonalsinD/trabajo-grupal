@@ -10,3 +10,8 @@ const classes = [
   { id: 2, title: "Class 2", video: "https://www.youtube.com/embed/xyz456", topic: "Branches" },
   { id: 3, title: "Class 3", video: "https://www.youtube.com/embed/qwe789", topic: "Merge" }
 ];
+const classes = [
+  { id: 1, title: "Class 1", video: "https://www.youtube.com/embed/abc123", topic: "Intro" },
+  { id: 2, title: "Class 2", video: "https://www.youtube.com/embed/xyz456", topic: "Branches" },
+  { id: 3, title: "Class 3", video: "https://www.youtube.com/embed/qwe789", topic: "Merge" }
+];
