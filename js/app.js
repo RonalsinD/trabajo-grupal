@@ -49,3 +49,10 @@ function filterByTopic(topic) {
   const filtered = classes.filter(c => c.topic === topic);
   renderClasses(filtered);
 }
+function searchClass(text) {
+  const result = classes.filter(c =>
+    c.title.toLowerCase().includes(text.toLowerCase())
+  );
+  renderClasses(result);
+}
+div.style.cursor = "pointer";
