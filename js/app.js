@@ -42,3 +42,10 @@ function renderClasses(data) {
 }
 
 renderClasses(classes);
+div.addEventListener("click", () => {
+  alert("Playing " + clase.title);
+});
+function filterByTopic(topic) {
+  const filtered = classes.filter(c => c.topic === topic);
+  renderClasses(filtered);
+}
