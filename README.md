@@ -19,6 +19,7 @@ celular:73782117
 Kevin Antonio Antezana Florero
 
 ![Kevin](images-readme/kevin.png)
+
 correo: 202401542@est.umss.edu
 
 celular:77921813
