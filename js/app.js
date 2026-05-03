@@ -22,3 +22,7 @@ classes.forEach(clase => {
   div.innerHTML = `<h2>${clase.title}</h2>`;
   container.appendChild(div);
 });
+div.innerHTML = `
+  <h2>${clase.title}</h2>
+  <iframe src="${clase.video}" width="400"></iframe>
+`;
